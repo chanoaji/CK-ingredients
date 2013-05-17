@@ -1,4 +1,10 @@
 CKIngredients::Application.routes.draw do
+  resources :ingredient_names
+
+
+  resources :ingredients
+
+
   get "home/index"
 
   # The priority is based upon order of creation:
