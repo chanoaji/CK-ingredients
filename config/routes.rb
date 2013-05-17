@@ -7,8 +7,9 @@ CKIngredients::Application.routes.draw do
 
   resources :ingredients
 
+  #Goes to  Rails default application index page
+  #get "home/index"
 
-  get "home/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
