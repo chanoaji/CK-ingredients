@@ -2,7 +2,13 @@
 
 git clone git@github.com:chanoaji/CK-ingredients.git
 
+rake routes
+
 rake db:migrate
+
+rails server
+
+>> go to http://localhost:3000/ingredients or /ingredient_names or /tags
 
 == To push to repository
 
@@ -15,4 +21,4 @@ git push
 >> provide github username
 >> provide github password
 
-^___^ \/
+^___^ \\/
